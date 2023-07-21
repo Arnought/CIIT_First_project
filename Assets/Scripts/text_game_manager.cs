@@ -111,8 +111,10 @@ public class text_game_manager : MonoBehaviour
     {
         startOfStory = "You ride the boat and escaped the island but, after an hour you noticed that the water is going inside the boat and will eventually sink. Without means to fix the boat you end up dying in the sea.";
         endingOfStory = "Bad Ending";
+        hpValue -= 10;
         level3_Choices.SetActive(false);
         EndingGO.SetActive(true);
+
     }
 
 
